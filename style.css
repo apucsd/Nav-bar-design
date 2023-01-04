@@ -1,0 +1,51 @@
+header{
+    width: 70%;
+    margin: 0 auto;
+   
+
+}
+nav{
+
+}
+nav li{
+    display:inline-block;
+    margin:;
+    
+   
+  
+  
+}
+nav li a{
+    text-decoration: none;
+    text-align: center;
+     padding: 8px 30px;
+    margin: 20px 30px;
+    font-size: 1.5rem;
+  
+    padding: 0 20px;
+    color: rgb(4, 4, 4);
+    background-color: thistle;
+   
+}
+nav li:hover{
+    text-decoration: underline;
+    color: teal;
+}
+body{
+    background-color: rgb(101, 101, 206);
+}
+@media screen and (max-width: 700px) {
+    body {
+      background-color: rgb(101, 101, 206);
+    
+    }
+    nav li{
+        display: grid;
+        grid-template-rows: auto;
+    }
+    nav li a{
+        background-color: thistle;
+        padding: 0 20px;
+        color: rgb(4, 4, 4);
+    }
+  }
